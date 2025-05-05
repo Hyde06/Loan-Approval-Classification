@@ -56,13 +56,13 @@ The project follows these key steps:
 
 ## Results
 
-- The best-tuned model achieved a test accuracy of approximately **87.4%**.
-- Class weighting and tuning for recall significantly improved the recall for the minority class (1) to **0.81**, compared to earlier models, although this came with a decrease in precision (to 0.74).
-- The F1-score for the minority class is **0.77**.
-- The overall weighted F1-score is **0.89**.
-- **AUC-ROC:** 0.95 (Excellent class separation overall)
+- The best-tuned model achieved a test accuracy of approximately **90.02%**.
+- Class weighting and tuning for recall significantly improved the recall for the minority class (1) to **0.84**, compared to earlier models, although this came with a decrease in precision (to 0.79, from 0.83).
+- The F1-score for the minority class is **0.81**.
+- The overall weighted F1-score is **0.91**.
+- **AUC-ROC:** 0.96 (Excellent class separation overall)
   ![ROC Curve](images/AUC-ROC.png)
-- **Precision-Recall AUC (Average Precision):** 0.85 (Very good performance, especially considering the ~0.23 baseline due to imbalance)
+- **Precision-Recall AUC (Average Precision):** 0.91 (Very good performance, especially considering the ~0.23 baseline due to imbalance)
   ![PR Curve](images/PR-AUC.png)
 
 
