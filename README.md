@@ -22,18 +22,21 @@ The project involves:
 
 ## Project Structure
 
+```
+Loan-Approval-Classification/
 ├── data/                     # (Optional) Directory for data files
-│   └── loan_data.csv         # (Not committed if large - download instructions above)
+│   └── loan_data.csv         # Dataset file (not committed if large)
 ├── images/                   # Directory for generated plots/images
-│   └── download_2.png        # Example ROC curve image
-│   └── download_213.png      # Example PR curve image
-├── exploratory_data_analysis/                   # (Optional) Directory for saved models
-│   └── data_analysis.ipynb # (Not committed if large)
-├── models/                   # (Optional) Directory for saved models
-│   └── ANN.ipynb # (Not committed if large)
-├── README.md                 # This file
+│   ├── download_2.png        # Example ROC curve image
+│   ├── download_213.png      # Example PR curve image
+├── exploratory_data_analysis/ # Directory for EDA notebooks
+│   └── data_analysis.ipynb   # Notebook for exploratory data analysis
+├── models/                   # Directory for saved models and training notebooks
+│   └── ANN.ipynb             # Notebook for building and training the ANN model
+├── README.md                 # Project documentation (this file)
 ├── .gitignore                # Specifies intentionally untracked files
-└── requirements.txt          # Project dependencies
+└── requirements.txt          # List of project dependencies
+```
 
 ## Methodology
 
