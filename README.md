@@ -27,8 +27,8 @@ Loan-Approval-Classification/
 ├── data/                     # (Optional) Directory for data files
 │   └── loan_data.csv         # Dataset file (not committed if large)
 ├── images/                   # Directory for generated plots/images
-│   ├── download_2.png        # Example ROC curve image
-│   ├── download_213.png      # Example PR curve image
+│   ├── AUC-ROC.png           # Example ROC curve image
+│   ├── PR-AUC.png            # Example PR curve image
 ├── exploratory_data_analysis/ # Directory for EDA notebooks
 │   └── data_analysis.ipynb   # Notebook for exploratory data analysis
 ├── models/                   # Directory for saved models and training notebooks
