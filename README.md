@@ -15,7 +15,7 @@ The project involves:
 
 ## Dataset
 
-- **Source:** The dataset is a synthetic version inspired by the original [Credit Risk dataset on Kaggle](https://www.kaggle.com/datasets/laotse/credit-risk-dataset) and enriched with additional variables based on [Financial Risk for Loan Approval data](https://www.kaggle.com/datasets/devanshi22/financial-risk-for-loan-approval-data).
+- **Source:** The dataset is a synthetic version inspired by the original [Credit Risk dataset on Kaggle](https://www.kaggle.com/datasets/laotse/credit-risk-dataset) and enriched with additional variables based on [Financial Risk for Loan Approval data](https://www.kaggle.com/datasets/lorenzozoppelletto/financial-risk-for-loan-approval).
 - **Link:** [Loan Approval Classification Data on Kaggle](https://www.kaggle.com/datasets/taweilo/loan-approval-classification-data)
 - **Description:** Contains 45,000 records and 14 variables (mix of categorical and continuous). SMOTENC was used in its creation to enlarge instances. The target variable `loan_status` indicates loan approval/denial (or default risk, depending on interpretation - 0/1 encoding used).
 - **Usage:** Download the `loan_data.csv` file from the Kaggle link above and place it in the `data/` directory (or the root directory if you prefer, just update the notebook path). *(Note: The CSV is not included in this repository due to potential size constraints).*
