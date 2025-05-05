@@ -1,0 +1,5 @@
+# Ignore the hyperband_tuning_weighted folder
+hyperband_tuning_weighted/
+
+# Ignore the best_loan_approval_model.keras file
+best_loan_approval_model.keras
